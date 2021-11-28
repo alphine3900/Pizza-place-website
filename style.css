@@ -60,6 +60,23 @@ height: 50px;
     margin-top: -50px;
 }
 
+#about{ 
+    background-image: url(images/back.jpeg);
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+#about h1{
+    margin-top: -1px;
+    color: yellowgreen;
+    font-size: 43px;
+    float: right;
+    font-weight: bolder;
+    background-color: deeppink;
+    margin-right: 10px;
+
+}
+
 
 
 
