@@ -78,6 +78,33 @@ height: 50px;
 }
 
 
+#pizza{
+    font-weight: bold;
+    background-color:deeppink ;
+    
+margin-top: 20px;
+    height: 620px;
+}
+.row{
+    padding-left: 70px;
+}
+.small{
+    height: 100px;
+}
+.medium{
+    margin-top: 30px;
+    height: 120px;
+}
+.large{
+    margin-top: 20px;
+    height: 120px;
+}
+.bt{
+    margin-left: 520px;
+    margin-bottom: -200px;
+}
+
+
 
 
 
