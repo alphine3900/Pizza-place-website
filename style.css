@@ -4,3 +4,33 @@ body{
     overflow: hidden;
 }
 
+.container-fluid{
+    text-align: center;
+    height: 630px;
+    background-color:deeppink;
+    background-size: cover;
+}
+
+#nav{
+height: 50px;
+    background-color: black;
+}
+#nav ul{
+    display: flex;
+    float: right;
+}
+
+#nav li {
+
+    list-style-type: none;
+    }
+
+#nav a {
+    color: white;
+    margin-right: 150px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
