@@ -104,6 +104,56 @@ margin-top: 20px;
     margin-bottom: -200px;
 }
 
+#smalltp{ margin-top: 70px;
+    
+    background-image: url(images/toppings.jpeg);
+    background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+text-align: center;
+}
+#smalltp h1{
+
+    font-size: 50px;
+    font-weight: bolder;
+    color:red;
+}
+#mediumtp{
+    background-image: url(images/medium\ toppings.jpeg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+#mediumtp h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color:red;
+}
+
+#largetp{
+    background-image: url(images/large\ toppings.jpeg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+#largetp h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color:red;}
+    #button{
+
+        margin-top: -380px;
+    }
+    #contact{
+        background-color: deeppink;
+    clear: left;
+    height: 600px;
+    margin-top: -150px;
+    
+    background-repeat: no-repeat;
+    
+    }
+
 
 
 
