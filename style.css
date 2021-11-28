@@ -30,7 +30,38 @@ height: 50px;
     margin-right: 150px;
     text-decoration: none;
     font-size: 30px;
+}.container h1{
+    background-image: url(images/best.jpg);
+    margin-top: 30px;
+    color:greenyellow;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: oblique;
+    height: 500px;
 }
+.welcome{
+    margin-left: -600px;
+}
+.alvo{
+    margin-left: -300px;
+    margin-top: -50px;
+}
+.best{
+    margin-right: -180px;
+    margin-top: -50px;
+
+}
+.in{
+    margin-right: -500px;
+    margin-top: -50px;
+}
+.city{
+    margin-right: -820px;
+    margin-top: -50px;
+}
+
+
+
 
 
 
