@@ -106,7 +106,7 @@
     <h1> <div class="welcome">
             SMALL SIZED PIZZA
     </div> <br> <br> <div class="alvo"> AND THERE </div> <br> <br> <div class="best">TOPPINGS</div> <br> <br> <div class="in"> CHEAP</div> <br> <br> <div class="city">COST!!</div></h1>
-    <button id="button" class="btn btn-success btn-lg" type="button"><a href="form.html">order</a></button>
+    <button id="button" class="btn btn-success btn-lg" type="button"><a href="#order">order</a></button>
 </div> <br><br>
 
 
@@ -122,7 +122,7 @@
     <h1> <div class="welcome">
         MEDIUM SIZED PIZZA
     </div> <br> <br> <div class="alvo"> AND THERE</div> <br> <br> <div class="best">TOPPINGS</div> <br> <br> <div class="in"> CHEAP</div> <br> <br> <div class="city">COST!!</div></h1>
-    <button id="button" class="btn btn-success btn-lg" type="button"><a href="form.html">order</a></button>
+    <button id="button" class="btn btn-success btn-lg" type="button"><a href="#order">order</a></button>
 </div> <br><br>
 
 
@@ -139,7 +139,7 @@
      <h1> <div class="welcome">
     LARGE SIZED PIZZA
 </div> <br> <br> <div class="alvo"> AND THERE</div> <br> <br> <div class="best">TOPPINGS</div> <br> <br> <div class="in"> CHEAP</div><br> <br> <div class="city">COST!!</div></h1>
-<button id="button" class="btn btn-success btn-lg" type="button"><a href="form.html">order</a></button>
+<button id="button" class="btn btn-success btn-lg" type="button"><a href="#order">order</a></button>
 </div> 
 <br><br>
 <br> <br>
@@ -164,10 +164,82 @@
     <i class="fa fa-youtube fa-5x">  Alphine kirimi</i><br>
     <i class="fa fa-envelope fa-5x">  kirimialphine@gmail.com</i><br>
     <img class="image" src="images/large7.jpeg" alt="">
-
+    
 </div>
 
 
+<div id="order">
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#pizza">PIZZA</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+         
+    
+            <div class="col-md-4">
+    <form action="">     
+        <h1>ORDER NOW AS MANY AS YOU CAN</h1>
+    <select name="" class="form-control" id="myPizzaSize">
+        <option value="">Pizza Size</option>
+        <option value="400">Small</option>
+        <option value="600">Medium</option>
+        <option value="800">Large</option>
+    </select> <br>
+    
+    <select name=""  class="form-control" id="myPizzaCrust">
+        <option value="">Select Crust</option>
+        <option value="160"> Crispy</option>
+        <option value="180"> Stuffed</option>
+        <option value="200"> Gluten-free</option>
+    </select> <br>
+
+      <input type="number" name="" id="crustNumber" placeholder="Number of pizza Crust"><br> <br>
+    
+    <select name="" class="form-control" id="myPizzaTopping">
+        <option value="">Topping Type</option>
+        <option value="25">sausage</option>
+        <option value="30">Gorgonzola</option>
+        <option value="40">eggplant</option>
+        <option value="60">Capers</option>
+        <option value="80">mushroom</option>
+    </select> <br>
+    <input type="number" name="" id="toppingNumber" placeholder="Number of Topping"> <br> <br>
+
+    <input type="number" name="" id="pizzaNumber" placeholder="Total number of Pizzas"> <br> <br>  
+    
+    <button class="btn btn-success" id="checkbtn">Check Out</button>
+    </form>  
+</div>
+<div class="col-md-4">
+    <h1>ORDER SUMMARY</h1>
+    <ol class="summary">
+
+    </ol>
+</div>
+
+<div class="col-md-4">
+    <h1>Enter Details</h1>
+   <form id="fom" action="#">
+     <input type="text" placeholder="firstname" id="fname"> <br> <br><br>
+      <input type="text" placeholder="email" id="mail"> <br> <br><br>
+      <input type="text" placeholder="location" id="txt" > <br> <br><br>
+   
+      <input type="submit" class="btn btn-success locationOrder" name="order"  value="Delivery">
+    </form>
+   </div>
+</div>
+
+
+</div>
+<script src="functioun.js"></script>
+
+</div>
 
 
 </body>
