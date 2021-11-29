@@ -56,9 +56,8 @@ function TotalPizza(namePizza,nameCrust,nameTopping){
      var Total=(pizzaNumbers + (crustNumbers*crustInputNumbers)+ (toppingNumbers*toppingInputNumbers))*pizzaInputNumbers;
  
    
- $(".summary").html("<h2>"+"Pizza Size: "+myObject.OwnPizza+"<br>"+"Crust Type: "+myObject.OwnCrust+"<br>"+"Pizza Topping: "+myObject.myOwnTopping()+"<br>"+"Total Amount:"+"kshs."+Total+"</h2>")
+ $(".summary").html("<h2>"+"Pizza Size: "+myObject.OwnPizza+"<br>"+"Crust Type: "+myObject.OwnCrust+"<br>"+"Pizza Topping: "+myObject.myOwnTopping()+"<br>"+"Total Amount:"+"kshs."+Total+"</h2>").show(2000)
  
- $()
  
      })
    
