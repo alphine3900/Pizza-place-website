@@ -24,7 +24,7 @@ function TotalPizza(namePizza,nameCrust,nameTopping){
     
             } else {
               
-                alert(`Your order will be delivered to ${location} and pay 200ksh extra`)
+                alert(` ${name} Your order will be delivered to ${location} and pay 200ksh extra`)
     
           
                 name = $("#fname").val("");
